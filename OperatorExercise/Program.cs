@@ -18,6 +18,12 @@
 
                 Console.WriteLine($"When {a} is divided by {b} the results are {quotient} remainder {remainder}.");
 
+            var i = 3;
+            var j = 4;
+            var k = ++i * j++;
+            Console.WriteLine(k);
+
+
 
             //Exercise 2
 
@@ -39,9 +45,14 @@
 
             return area;
 
+
+
+
+            
+
         }
 
-
+        
 
 
 
